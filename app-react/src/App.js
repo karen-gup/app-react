@@ -1,54 +1,29 @@
+import { useState } from "react";
 import React from "react";
 import "./App.css"
 
 
+const Count = () => {
+  console.log('Renderiza Count')
+  const [counter, setCounter] = useState(0);
 
-function Greet1 (props){
-
-  
-
-  return (
-    <>
-    <section className="main">
-      <h1>Hola {props.nombre}, mucho gusto</h1>
-    </section>  
-    </>
-  );
-}
-class Greet2 extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {nombre:props.nombre}
-  }
-
-  render(){
-    return (
-      <>
-      <section className="main">
-        <h1>Hola, {this.state.nombre} mucho gusto</h1>
-      </section>  
-      </>
-    );
-  }
-}
-
-
-function App() {
-
-
-  const handleSend = (e) => { 
-   console.log(e.target.value)
-  }
 
   return (
     
     <>
-    <Greet1 nombre="Ana"/>  
-
-
-    <Greet2 nombre="Karen"/>
-  
+    <section className="counter">
+      <button className={counter<=0?"button-dis":"button-act"} onClick={()=> counter>0?setCounter(counter-1):setCounter(0)}>-</button>
+        <p>{counter}</p>
+      <button className="button-act" onClick={()=> setCounter(counter+1)}>+</button>
+    </section>
     </>
   );
+}
+
+
+function App() {
+ console.log("Renderiza App")
+
+ return <Count/>
 }
 export default App

@@ -1,13 +1,13 @@
 .App {
   text-align: center;
   background-color: #282c34;
-
 }
 
 .main {
 width: 100%;
 height: 100%;
 }
+
 h1 {
   color: azure;
 }
@@ -19,48 +19,40 @@ margin: 2%;
 border-radius: 5px 5px 5px 5px;
 border: 4px solid #13e1f0;
 }
-button {
-  width: 150px;
-  height: 30px;
-  background: #28D3DE;
-  border: 4px solid #a19f9f;
-  border-radius: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.counter{
+  margin-top: 5%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.button-act {
+  width: 45px;
+  height: 45px;
+  margin: 5%;
+  background: #28D3DE;
+  border-radius: 10px;
+  color:#4a4a4a;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.button-dis{
+  width: 45px;
+  height: 45px;
+  margin: 5%;
+  background: #4a4a4a;
+  border-radius: 10px;
+  color:#a2abac;
+  font-size: 37px;
+
+}
+
+p{
+  color: #fdfdfd;
+  font-size: 40px;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
