@@ -1,0 +1,21 @@
+.button-count {
+    width: 45px;
+    height: 45px;
+    margin: 5%;
+    background: #28D3DE;
+    border-radius: 10px;
+    color:#4a4a4a;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  
+  .button-count:disabled{
+    width: 45px;
+    height: 45px;
+    margin: 5%;
+    background: #4a4a4a;
+    border-radius: 10px;
+    color:#a2abac;
+    font-size: 37px;
+  
+  }

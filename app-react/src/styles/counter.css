@@ -1,0 +1,15 @@
+.counter{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  h1{
+    color: #fdfdfd;
+    font-size: 40px;
+  }
+
+  h2{
+    color: #fdfdfd;
+  }
