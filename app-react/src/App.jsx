@@ -1,11 +1,11 @@
-import { Count } from "./components/Counter";
+import { Counter } from "./components/Counter";
 import React from "react";
 
 
 function App() {
 
  return(
-    <Count/>
+    <Counter/>
     )
 }
 export default App

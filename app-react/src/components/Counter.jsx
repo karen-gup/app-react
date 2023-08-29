@@ -4,7 +4,7 @@ import { Button } from "./Button";
 import { Multiplo } from "./Multiple";
 
 
-export const Count = () => {
+export const Counter = () => {
   const [counter, setCounter] = useState(0);
   const [multiplo, setMultiplo] =useState("")
 
