@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Ana",
+      "gender": "female",
+      "email": "karen.killjoy@hotmail.com",
+      "birthdate": "1996-07-25",
+      "phone": 5555555555,
+      "id": 1
+    },
+    {
+      "name": "KAREN",
+      "gender": "F",
+      "email": "karen.killjoy@hotmail.com",
+      "birthdate": "1999-03-20",
+      "phone": "5511223344",
+      "id": 2
+    }
+  ]
+}

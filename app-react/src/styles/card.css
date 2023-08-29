@@ -1,0 +1,21 @@
+
+.card-container-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 150px;
+    background-color:#5e5b5b89;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(235, 220, 235);
+    margin: 1em;
+    padding: 2px;
+}
+.buttons-cntr{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-delete, .btn-edit{
+    margin: 2px;
+}

@@ -1,11 +1,11 @@
-import { Count } from "./components/Counter";
+import { Form } from "./components/Form";
 import React from "react";
 
 
 function App() {
 
  return(
-    <Count/>
+    <Form/>
     )
 }
 export default App
