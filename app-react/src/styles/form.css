@@ -120,4 +120,5 @@ form input[type="submit"]{
    .wall-cards{
     display: flex;
     margin-top: 1em;
+    flex-wrap: wrap;
    }

@@ -6,29 +6,27 @@ import "../styles/form.css";
 export const Form = () => {
   const [data, setData] = useState([])
 
-
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(typeof (data), data)
-    setData(data)
 
+  const onSubmit = (db) => {
+    setData(db)
+    reset({})
     fetch('http://localhost:3030/data', {
       method: "POST",
-      body: JSON.stringify(data),
+      body: JSON.stringify(db),
       headers: {
         "Content-Type": "application/json",
       },
     })
       .then((res) => res.json())
       .catch((error) => console.error("Error:", error))
-      .then((response) => console.log("Success:", response));
   }
-
 
 
 
@@ -41,7 +39,7 @@ export const Form = () => {
       <section className="container">
         <h1>FORMULARIO</h1>
         <form className='form-container' onSubmit={handleSubmit(onSubmit)}>
-          <label>Nombre:</label>
+          <label>Nombre: </label>
           <input
             type="text"
             name="name"
@@ -114,7 +112,7 @@ export const Form = () => {
       </section>
       <section className='wall-cards'>
       <Card status={data}
-        data={data}/>
+        />
       </section>  
     </>
   );

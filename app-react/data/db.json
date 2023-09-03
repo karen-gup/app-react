@@ -9,12 +9,44 @@
       "id": 1
     },
     {
-      "name": "KAREN",
-      "gender": "F",
-      "email": "karen.killjoy@hotmail.com",
-      "birthdate": "1999-03-20",
-      "phone": "5511223344",
+      "name": "luis",
+      "gender": "M",
+      "email": "luis-gupe@hotmail.com",
+      "birthdate": "1998-05-24",
+      "phone": "5511111111",
       "id": 2
+    },
+    {
+      "name": "Rocio",
+      "gender": "F",
+      "email": "rocio.gupe@gmail.com",
+      "birthdate": "2002-05-24",
+      "phone": "5515517503",
+      "id": 3
+    },
+    {
+      "name": "luis",
+      "gender": "M",
+      "email": "luis-gupe@hotmail.com",
+      "birthdate": "2001-01-01",
+      "phone": "5588112233",
+      "id": 4
+    },
+    {
+      "name": "Juan",
+      "gender": "M",
+      "email": "juan@juan.com",
+      "birthdate": "2001-04-22",
+      "phone": "5533556612",
+      "id": 5
+    },
+    {
+      "name": "Alon",
+      "gender": "M",
+      "email": "alone.rez@gmail.com",
+      "birthdate": "1996-08-21",
+      "phone": "4443567810",
+      "id": 6
     }
   ]
 }
